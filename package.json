@@ -1,0 +1,17 @@
+{
+  "name": "voice-llm-poc",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@mariozechner/pi-coding-agent": "^0.52.8",
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.0"
+  }
+}
